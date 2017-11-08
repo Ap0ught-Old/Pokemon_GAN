@@ -2,6 +2,10 @@ from PIL import Image
 import os
 src = "./resizedData"
 dst = "./resized_black/"
+try:
+    os.stat(dst)
+except:
+    os.mkdir(dst)
 
 for each in os.listdir(src):
     png = Image.open(os.path.join(src,each))
