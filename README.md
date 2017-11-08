@@ -9,6 +9,7 @@ cv2
 tensorflow( >=1.0)
 scipy
 numpy
+pip install opencv-python tensorflow scipy numpy --upgrade --user
 ```
 ## Usage
 ```
