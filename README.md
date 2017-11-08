@@ -3,17 +3,18 @@
 ## Overview
 This is the code for [this](https://youtu.be/yz6dNf7X7SA) video on Youtube by Siraj Raval. We'll use a WGAN to create new kinds of Pokemon. 
 
-## Dependencies (pip install) 
+## Dependencies (pip install opencv-python tensorflow scipy numpy --upgrade --user )
 ```
 cv2
 tensorflow( >=1.0)
 scipy
 numpy
-pip install opencv-python tensorflow scipy numpy --upgrade --user
+
 ```
 ## Usage
 ```
-cd pokeGAN
+
+cd Pokemon_GAN
 python resize.py
 python RGBA2RGB.py
 python pokeGAN.py
